@@ -1,0 +1,47 @@
+#pagination li{
+    border: 1px solid  black;
+    display: inline-block;
+    padding: 10px;
+
+}
+li:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.active{
+    background-color: aqua;
+}
+tr td{
+    border: 1px solid  black;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 2px;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+}
+table{
+    max-width: 1080px;
+    margin: auto;
+}
+#pagination{
+    max-width: 200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#titleOfTable tr th {
+     padding: 9px;
+     display: inline-block;
+     border: 1px solid black;
+}
+
+.activeImgRotate{
+    transform: rotate(180deg); 
+}
+
+.filteredInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
